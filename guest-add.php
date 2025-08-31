@@ -19,8 +19,9 @@
         </div>
                 <div class="form-container">
         <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
         </div>
+         <input type="hidden" name="add_guest" value="1">
         <input type="submit" value="Submit">
     </form>
 </body>
