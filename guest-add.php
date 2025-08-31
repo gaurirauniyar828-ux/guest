@@ -10,15 +10,15 @@
 
         <h2>Guest Book Entry</h2>
                 <div class="form-container"></div>
-        <label for="name">Name:</label>
+        <label for="name">Name</label>
         <input type="text" id="name" name="name" required><br><br>
         </div>
                 <div class="form-container">
-        <label for="email">Email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email" name="email" required><br><br>
         </div>
                 <div class="form-container">
-        <label for="message">Message:</label><br>
+        <label for="message">Message</label><br>
         <textarea id="message" name="message" rows="4" cols="50" required></textarea>
         </div>
          <input type="hidden" name="add_guest" value="1">
